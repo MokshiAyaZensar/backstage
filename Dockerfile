@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . .
  
 # Install dependencies
-RUN yarn install --frozen-lockfile
+RUN yarn install 
  
 # Build the backend
 RUN yarn tsc
